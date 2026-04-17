@@ -2223,7 +2223,8 @@ section .hero {
   resize: vertical;
   min-height: 120px;
   font-family: inherit;
-  padding-top: 25px;
+  padding: 25px 0 15px 0;
+  box-sizing: border-box;
 }
 
 .contact .contact-form-container .contact-form .send-button {
